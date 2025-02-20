@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* z-index: -1; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/musicPlayer_pish/picture/photo_2024-11-08_17-00-44.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* opacity: 0.5; */
+    filter: blur(15px);
+    z-index: -1;
+}
+
+.box{
+    background-color: rgb(232, 231, 231);
+    width: 390px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 0 23px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+    top: 42px;
+    right: 612px;
+    border-radius: 25px;
+    box-shadow: -2px 7px 20px 3px #1f1f1f;
+}
+.main{
+    margin-top: 235px;
+}
+.name{
+    text-align: center;
+    font-size: 27px;
+    font-weight: 900;
+}
+.khanade{
+    text-align: center;
+    font-size: 15px;
+}
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: gray;
+    font-size: 13px;
+    margin-top: 40px;
+}
+.rafte, .koll{
+    margin: 0;
+}
+input{
+    width: 100%;
+    height: 1px;
+    color: gray;
+}
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.previese, .play, .next{
+    width: 50px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.play{
+    width: 65px;
+}
