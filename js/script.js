@@ -1,8 +1,8 @@
 let musics = [
-    {name : 'Delvapasi', khanade : 'Ali Zand Vakili',peactur :'/musicPlayer_pish/picture/photo_2024-11-08_17-00-44.jpg', link : 'http://127.0.0.1:5500/musicPlayer/musics/Ali%20Zand%20Vakili%20-%20Raghse%20Sayeha%20(320).mp3'},
-    {name : 'Ghamgin Tarin', khanade : 'Ali Zand Vakili',peactur :'/musicPlayer_pish/picture/Ali-Zand-Vakili-Ghamgintarin-Ahang.jpg', link : 'http://127.0.0.1:5500/musicPlayer/musics/Ali%20Zand%20Vakili%20-%20Delvapasi%20(320).mp3'},
-    {name : 'Raghse Sayeha', khanade : 'Ali Zand Vakili',peactur :'/musicPlayer_pish/picture/photo_2025-01-08_19-58-52_Musics.webp', link : 'http://127.0.0.1:5500/musicPlayer/musics/Ali%20Zand%20Vakili%20-%20Ghamgin%20Tarin%20(320).mp3'},
-    {name : 'Shabe Masti', khanade : 'Ali Zand Vakili',peactur :'/musicPlayer_pish/picture/Ali-Zand-Vakili-Shabe-Masti.jpg', link : 'http://127.0.0.1:5500/musicPlayer/musics/Ali%20Zand%20Vakili%20-%20Shabe%20Masti%20(320).mp3'}
+    {name : 'Delvapasi', khanade : 'Ali Zand Vakili',peactur :'picture/photo_2024-11-08_17-00-44.jpg', link : 'musics/Ali Zand Vakili - Delvapasi (320).mp3'},
+    {name : 'Ghamgin Tarin', khanade : 'Ali Zand Vakili',peactur :'picture/Ali-Zand-Vakili-Ghamgintarin-Ahang.jpg', link : 'musics/Ali Zand Vakili - Ghamgin Tarin (320).mp3'},
+    {name : 'Raghse Sayeha', khanade : 'Ali Zand Vakili',peactur :'/musicPlayer_pish/picture/photo_2025-01-08_19-58-52_Musics.webp', link : 'musics/Ali Zand Vakili - Raghse Sayeha (320).mp3'},
+    {name : 'Shabe Masti', khanade : 'Ali Zand Vakili',peactur :'picture/photo_2025-01-08_19-58-52_Musics.webp', link : 'musics/Ali Zand Vakili - Shabe Masti (320).mp3'}
 ]
 
 
